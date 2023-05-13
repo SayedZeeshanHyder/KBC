@@ -1,0 +1,165 @@
+.main{
+
+    width: 100%;
+    height: 650px;
+    display: inline-flex;
+}
+.block1{
+    width: 75%;
+    height: 100%;
+}
+.block2{
+    width: 25%;
+    height: 100%;
+    background-color: yellow;
+    padding: .75%;
+}
+.block1a{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    background-image: url("https://ptcnews-wp.s3.ap-south-1.amazonaws.com/wp-content/uploads/2020/09/kbc-show.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover; 
+    background-position: center;
+}
+.block1b{
+    width: 100%;
+    height: 40%;
+}
+.money{
+    width: 100%;
+    height: 6.5%;
+    background-color: lightgreen;
+    margin-top: .5%;
+}
+.lifeline{
+    width: 100%;
+    height: 15%;
+    background-color: brown;
+}
+.quest{
+    width: 100%;
+    height: 25%;
+    background-color: blueviolet;
+    font-size: 50px;
+    text-decoration: solid;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.optionset1{
+    width: 100%;
+    height: 25%;
+    display: inline-flex;
+}
+.optionset2{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: inline-flex;
+}
+.option1{
+    font-size: 40px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.option2{
+    font-size: 40px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.option3{
+    font-size: 40px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.option4{
+    font-size: 40px;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+}
+.scores{
+    height: 60%;
+}
+.aud{
+    width: 100%;
+    height: 40%;
+    background-color:darkmagenta;
+}
+.choicebutt{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    display: none;
+}
+.locking{
+    display: inline-flex;
+}
+.next{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    display: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+@keyframes example{
+    0%{
+        background-color: green;
+    }    
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
+.anim{
+    font-size: 40px;
+    width: 50%;
+    height: 100%;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.anim1{
+    font-size: 40px;
+    width: 50%;
+    height: 100%;
+    animation-name: example1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example1{
+    0%{
+        background-color: green;
+    }    
+    25%{
+        background-color: white;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
+        background-color: white;
+    }
+    100%{
+        background-color: green;
+    }
+}
+#p12{
+    background-color: darkblue;
+}
