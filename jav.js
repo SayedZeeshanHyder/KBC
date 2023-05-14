@@ -71,6 +71,8 @@ function ji()
             if(x!=1)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
                 y=document.getElementById("butt1");
                 y.className = " anim1";
             }
@@ -89,6 +91,8 @@ function ji()
             if(x!=correct)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
             }
             else{
                 document.getElementById("lockmsg").innerHTML="Bilkul Sahi Jawab";
@@ -119,6 +123,8 @@ function ji()
             if(x!=correct)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
             }
             else{
                 document.getElementById("lockmsg").innerHTML="Bilkul Sahi Jawab";
@@ -149,6 +155,8 @@ function ji()
             if(x!=correct)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
             }
             else{
                 document.getElementById("lockmsg").innerHTML="Bilkul Sahi Jawab";
@@ -179,6 +187,8 @@ function ji()
             if(x!=correct)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
             }
             else{
                 document.getElementById("lockmsg").innerHTML="Bilkul Sahi Jawab";
@@ -209,6 +219,8 @@ function ji()
             if(x!=correct)
             {
                 document.getElementById("lockmsg").innerHTML="Afsos Yeh Galat Jawab !";
+                let beat1 = new Audio('wrong.mp3');
+                beat1.play();
             }
             else{
                 document.getElementById("lockmsg").innerHTML="Bilkul Sahi Jawab";
@@ -245,6 +257,8 @@ function ji()
 }
 function nextquestion()
 {
+    let beat = new Audio('nextquestion.mp3');
+    beat.play();
     scoreboard();
     let y=document.getElementById("butt1");
     y.className = "option1"; 
